@@ -7,7 +7,8 @@ import context1 from './context1';
 const store2 = configureStore();
 
 function App({
-  store1
+  store1,
+  parentData
 }) {
   return /*#__PURE__*/React.createElement("div", {
     className: "App"
@@ -18,7 +19,7 @@ function App({
     href: "https://reactjs.org",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Learn React"), /*#__PURE__*/React.createElement(context1.Provider, null, /*#__PURE__*/React.createElement(Provider, {
+  }, "Learn Something new"), /*#__PURE__*/React.createElement(context1.Provider, null, /*#__PURE__*/React.createElement(Provider, {
     store: store2,
     context: context1
   }, /*#__PURE__*/React.createElement(MyComponent, null)))));

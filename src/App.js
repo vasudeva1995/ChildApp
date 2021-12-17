@@ -6,7 +6,7 @@ import configureStore from './store';
 import context1 from './context1';
 
 const store2 = configureStore();
-function App({store1}) {
+function App({store1,parentData}) {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +19,7 @@ function App({store1}) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+Learn Something new
         </a>
         <context1.Provider>
         <Provider store = {store2} context={context1}>
