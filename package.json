@@ -1,6 +1,6 @@
 {
   "name": "myappy3283726362",
-  "version": "2.0.7",
+  "version": "2.1.0",
   "babel": {
     "presets": [
       "@babel/preset-react"
