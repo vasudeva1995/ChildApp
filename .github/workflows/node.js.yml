@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         
-    - run: export NPM_TOKEN=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
+    - run: export NPM_TOKEN=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
     - run: npm config set '//registry.npmjs.org/:_authToken'="${NPM_TOKEN}"    
     - run: yarn install
     - run: yarn build:npm
